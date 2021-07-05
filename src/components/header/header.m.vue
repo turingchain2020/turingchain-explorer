@@ -38,18 +38,18 @@ export default {
           name: "区块",
           src: "/block"
         },
-        {
-          name: "Token",
-          src: "/token"
-        },
+        // {
+        //   name: "Token",
+        //   src: "/token"
+        // },
         {
           name: "广播交易",
           src: "/pushtx"
         },
-        {
-          name: "联系我们",
-          src: "/contant"
-        }
+        // {
+        //   name: "联系我们",
+        //   src: "/contant"
+        // }
       ],
       show: false
     };

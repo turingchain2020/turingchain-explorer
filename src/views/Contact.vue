@@ -30,44 +30,44 @@ export default {
   data() {
     return {
       ulList: [
-        {
-          icon: "icon-weixin",
-          name: "微信",
-          src: require("../assets/images/yfx.png"),
-          tit: "yfx0323"
-        },
-        {
-          icon: "icon-weixingongzhonghao",
-          name: "微信公众号",
-          src: require("../assets/images/bty.png"),
-          tit: "比特元Bityuan"
-        },
-        {
-          icon: "icon-QQ",
-          name: "QQ",
-          src: require("../assets/images/QQ.png"),
-          tit: "238866636"
-        },
-        {
-          icon: "icon-twitter",
-          name: "Twitter",
-          src: require("../assets/images/Twitter.png"),
-          tit: "Twitter"
-        },
-        {
-          icon: "icon-kefu",
-          name: "BItciontalk",
-          src: require("../assets/images/Bitciontalk.png"),
-          tit: "BItciontalk"
-        },
-        {
-          icon: "icon-qun",
-          name: "电报群",
-          src: require("../assets/images/telegraph.png"),
-          tit: "电报群"
-        }
+        // {
+        //   icon: "icon-weixin",
+        //   name: "微信",
+        //   src: require("../assets/images/yfx.png"),
+        //   tit: "yfx0323"
+        // },
+        // {
+        //   icon: "icon-weixingongzhonghao",
+        //   name: "微信公众号",
+        //   src: require("../assets/images/bty.png"),
+        //   tit: "比特元Bityuan"
+        // },
+        // {
+        //   icon: "icon-QQ",
+        //   name: "QQ",
+        //   src: require("../assets/images/QQ.png"),
+        //   tit: "238866636"
+        // },
+        // {
+        //   icon: "icon-twitter",
+        //   name: "Twitter",
+        //   src: require("../assets/images/Twitter.png"),
+        //   tit: "Twitter"
+        // },
+        // {
+        //   icon: "icon-kefu",
+        //   name: "BItciontalk",
+        //   src: require("../assets/images/Bitciontalk.png"),
+        //   tit: "BItciontalk"
+        // },
+        // {
+        //   icon: "icon-qun",
+        //   name: "电报群",
+        //   src: require("../assets/images/telegraph.png"),
+        //   tit: "电报群"
+        // }
       ],
-      imgSrc: require("../assets/images/yfx.png"),
+      // imgSrc: require("../assets/images/yfx.png"),
       srcName: "微信",
       nice: "0"
     };

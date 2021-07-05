@@ -187,9 +187,10 @@ export default new Vuex.Store({
                 if (typeof res.result === 'string') {
                     commit('updateNodeVersion', res.result)
                 } else {
-                    commit('updateNodeVersion', res.result.chain33)
+                    commit('updateNodeVersion', res.result.version)
                 }
             })
         }
     }
 })
+

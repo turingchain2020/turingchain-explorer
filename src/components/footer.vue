@@ -2,68 +2,68 @@
   <div class="footer flex-center">
       <!-- <p class="contact">联系我们</p> -->
       <ul>
-        <li>
-          <div class="ibox" @mouseover='isShowWX = true' @mouseout='isShowWX = false'><i class="iconfont icon-weixin"></i></div>
-          <p class="name">微信</p>
-          <div class="qrCode" v-if='isShowWX'>
-            <img src="../assets/images/yfx.png"/>
-            <p>yfx0323</p>
-            <div class="triangle"></div>
-          </div>
-        </li>
-        <li>
-          <div class="ibox" @mouseover='isShowWXGZH = true' @mouseout='isShowWXGZH = false'>
-            <i class="iconfont icon-weixingongzhonghao"></i>
-          </div>
-          <p class="name">微信公众号</p>
-          <div class="qrCode" v-if="isShowWXGZH">
-            <img src="../assets/images/bty.png"/>
-            <p>比特元Bityuan</p>
-            <div class="triangle"></div>
-          </div>
-        </li>
-        <li>
-          <div class="ibox" @mouseover='isShowQQ = true' @mouseout='isShowQQ = false'><i class="iconfont icon-QQ"></i></div>
-          <p class="name">QQ</p>
-          <div class="qrCode" v-if="isShowQQ">
-            <img src="../assets/images/QQ.png"/>
-            <p>238866636</p>
-            <div class="triangle"></div>
-          </div>
-        </li>
-        <li>
-          <div class="ibox" @mouseover='isShowTwitter = true' @mouseout='isShowTwitter = false'><i class="iconfont icon-twitter"></i></div>
-          <p class="name">Twitter</p>
-          <div class="qrCode" v-if="isShowTwitter">
-            <img src="../assets/images/Twitter.png"/>
-            <p>Twitter</p>
-            <div class="triangle"></div>
-          </div>
-        </li>
-        <li>
-          <div class="ibox" @mouseover='isShowBitciontalk = true' @mouseout='isShowBitciontalk = false'><i class="iconfont icon-kefu"></i></div>
-          <p class="name">Bitciontalk</p>
-          <div class="qrCode" v-if="isShowBitciontalk">
-            <img src="../assets/images/Bitciontalk.png"/>
-            <p>Bitciontalk</p>
-            <div class="triangle"></div>
-          </div>
-        </li>
-        <li>
-          <div class="ibox" @mouseover='isShowTelegraph = true' @mouseout='isShowTelegraph = false'><i class="iconfont icon-qun"></i></div>
-          <p class="name">电报群</p>
-          <div class="qrCode" v-if="isShowTelegraph">
-            <img src="../assets/images/telegraph.png"/>
-            <p>电报群</p>
-            <div class="triangle"></div>
-          </div>
-        </li>
+<!--        <li>-->
+<!--          <div class="ibox" @mouseover='isShowWX = true' @mouseout='isShowWX = false'><i class="iconfont icon-weixin"></i></div>-->
+<!--          <p class="name">微信</p>-->
+<!--          <div class="qrCode" v-if='isShowWX'>-->
+<!--            <img src="../assets/images/yfx.png"/>-->
+<!--            <p>yfx0323</p>-->
+<!--            <div class="triangle"></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <div class="ibox" @mouseover='isShowWXGZH = true' @mouseout='isShowWXGZH = false'>-->
+<!--            <i class="iconfont icon-weixingongzhonghao"></i>-->
+<!--          </div>-->
+<!--          <p class="name">微信公众号</p>-->
+<!--          <div class="qrCode" v-if="isShowWXGZH">-->
+<!--            <img src="../assets/images/bty.png"/>-->
+<!--            <p>比特元Bityuan</p>-->
+<!--            <div class="triangle"></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <div class="ibox" @mouseover='isShowQQ = true' @mouseout='isShowQQ = false'><i class="iconfont icon-QQ"></i></div>-->
+<!--          <p class="name">QQ</p>-->
+<!--          <div class="qrCode" v-if="isShowQQ">-->
+<!--            <img src="../assets/images/QQ.png"/>-->
+<!--            <p>238866636</p>-->
+<!--            <div class="triangle"></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <div class="ibox" @mouseover='isShowTwitter = true' @mouseout='isShowTwitter = false'><i class="iconfont icon-twitter"></i></div>-->
+<!--          <p class="name">Twitter</p>-->
+<!--          <div class="qrCode" v-if="isShowTwitter">-->
+<!--            <img src="../assets/images/Twitter.png"/>-->
+<!--            <p>Twitter</p>-->
+<!--            <div class="triangle"></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <div class="ibox" @mouseover='isShowBitciontalk = true' @mouseout='isShowBitciontalk = false'><i class="iconfont icon-kefu"></i></div>-->
+<!--          <p class="name">Bitciontalk</p>-->
+<!--          <div class="qrCode" v-if="isShowBitciontalk">-->
+<!--            <img src="../assets/images/Bitciontalk.png"/>-->
+<!--            <p>Bitciontalk</p>-->
+<!--            <div class="triangle"></div>-->
+<!--          </div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <div class="ibox" @mouseover='isShowTelegraph = true' @mouseout='isShowTelegraph = false'><i class="iconfont icon-qun"></i></div>-->
+<!--          <p class="name">电报群</p>-->
+<!--          <div class="qrCode" v-if="isShowTelegraph">-->
+<!--            <img src="../assets/images/telegraph.png"/>-->
+<!--            <p>电报群</p>-->
+<!--            <div class="triangle"></div>-->
+<!--          </div>-->
+<!--        </li>-->
       </ul>
     </div>
 </template>
 <script>
   export default {
-  props:['black'],  
+  props:['black'],
   data() {
     return {
       isShowWX:false,
@@ -88,7 +88,7 @@
       height: 90px;
       // margin:45px auto;
       padding-left: 180px;
-      li{ 
+      li{
         margin-right: 95px;
         float: left;
         position: relative;

@@ -85,11 +85,11 @@ let router = new Router({
       name: 'decode-tx',
       component: DecodeTx
     },
-    {
-      path: '/token',
-      name: 'token',
-      component: checkIsMobile() ? mToken : pcToken
-    },
+    // {
+    //   path: '/token',
+    //   name: 'token',
+    //   component: checkIsMobile() ? mToken : pcToken
+    // },
     {
       path: '/tokenDetail',
       name: 'tokenDetail',
